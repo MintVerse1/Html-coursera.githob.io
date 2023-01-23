@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} 
+   section { 
+   background-color: #20202048;  
+   border: 2px solid rgb(12, 12, 12);
+   padding-top: 30px;
+   margin: 10px;
+   position: relative;
+   font-family: 'Times New Roman', Times, serif;
+   
+ }     
+  p { 
+            
+    border: 1px solid rgb(12, 12, 12);
+    float: right;
+    width: auto;    
+    height: auto;    
+    margin-top: 0; 
+    position:absolute;
+    top:0;
+    right:0;
+    padding: 5px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+  } 
+  /***********Desktop-Mode**********************/
+  @media(min-width:992px){
+    .div1{
+      width: 33%; 
+
+    }
+    .div2{
+      width: 33%;
+      top: -195px;
+      left: 35%;
+      margin: 1px;
+    }
+    .div3{
+      width: 33%;
+      top: -389px;
+      left: 68%;
+      
+    }
+  }
+  /*******************Tablet-Mode***************/
+  @media(min-width:768px) and(max-width: 991px)
+{
+  .div1{
+      width: 50%;
+    }
+    .div2{
+      width: 50%;
+      top: -195px;
+      left: 35%;
+      margin: 1px;
+    }
+    .div3{
+      width: 100%;
+    }
+}
+/*******************Mobile-Mode***************/
+@media(max-width:767px){
+  .div1{
+      width: 100%;
+    }
+    .div2{
+      width: 100%;
+    }
+    .div3{
+      width: 100%;
+      position: relative;
+    }
+}
+  .p1 {    
+    background-color: rgb(195, 19, 19);
+  }  
+ .p2 {   
+   background-color: rgb(217, 210, 10); 
+   color: aliceblue;
+ }
+ .p3{
+  background-color: aquamarine;
+ }
+ h1{
+  text-align: center;
+ }
